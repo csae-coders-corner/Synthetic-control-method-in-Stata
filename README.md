@@ -26,12 +26,9 @@ After running synth, the weights assigned to individual units in the donor pool 
 
 To further enhance the credibility of your analysis, you may want to do the following:
 
-1. Use a validation set approach: to avoid over-fitting the synthetic control unit, you may want to split your pre-intervention data into a training set and a validation set. Fit the synthetic control using just the training set and use the resulting weights to test the fit on the validation set. For details on cross-validation see Abadie, Diamond and Hainmueller (2015).
+1. Use a validation set approach: to avoid over-fitting the synthetic control unit, you may want to split your pre-intervention data into a training set and a validation set. Fit the synthetic control using just the training set and use the resulting weights to test the fit on the validation set. For details on cross-validation see [Abadie, Diamond and Hainmueller (2015)](https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12116).
 
 2.	Run placebo tests: reassign the treatment to a number of different time periods and/or different units in the sample (simply by changing the trperiod(#) and trunit(#) inputs) and compare the resulting estimated effect sizes. If the effect size you observe in your original analysis is significantly larger than any of the placebo effects, there is a good chance you’re onto something causal.
 
 **Lisa Martin, PRS in Economics, Keble College, Oxford 
 04 February 2020**
-
-
-

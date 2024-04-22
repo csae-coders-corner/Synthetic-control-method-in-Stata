@@ -1,3 +1,6 @@
+
+![CC Graphics 2024_Synthetic](https://github.com/csae-coders-corner/Synthetic-control-method-in-Stata/assets/148211163/a34092dd-3559-4e82-8fdf-b7c0561c402d)
+
 # Synthetic-control-method-in-Stata
 Determining the causal effect of a policy intervention is challenging: while you may be able to observe the outcome of interest with the new policy in place, you can’t ever observe what would have happened had the policy not been implemented. In other words, you can’t observe the counterfactual. The synthetic control method is one of many inferential methods that have been developed to deal with this challenge. 
 

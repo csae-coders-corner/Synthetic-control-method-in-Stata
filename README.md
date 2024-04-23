@@ -14,12 +14,16 @@ To use the method, you’ll need a balanced panel data set containing your treat
 
 First, install the package and declare your data as time series data:
 
+```
 ssc install synth
 tsset panelvar timevar
+```
 
 The syntax for the synthetic control method is then simply:
 
+```
 synth depvar predictorvars , trunit(#) trperiod(#)
+```
 
 where depvar is your outcome variable of interest, predictorvars are the explanatory variables, trunit specifies the name of the treated unit (e.g. the country that implemented the new policy) and trperiod specifies the time of the treatment (e.g. the year in which the new policy was implemented). You may want to include lagged values of your dependent variable as a predictor variable to improve the pre-intervention fit.
 
